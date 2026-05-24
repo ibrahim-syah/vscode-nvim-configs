@@ -26,7 +26,7 @@ if (vim.g.vscode) then
         use 'wbthomason/packer.nvim'
         
         use {
-            'ggandor/leap.nvim',
+            'https://codeberg.org/andyg/leap.nvim',
             config = function()
                 require("leap").add_default_mappings(true)
             end
